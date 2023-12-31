@@ -1,0 +1,33 @@
+{
+ // "extends": "fastify-tsconfig",
+ "compilerOptions": {
+  "target": "ES2022",
+  "module": "NodeNext",
+  "moduleResolution": "NodeNext",
+  "esModuleInterop": true,
+  "resolveJsonModule": true,
+  "removeComments": true,
+  "newLine": "lf",
+  "isolatedModules": false,
+  "forceConsistentCasingInFileNames": true,
+  "skipLibCheck": true,
+  // Linting
+  "strict": false,
+  "noUnusedLocals": false,
+  "noUnusedParameters": false,
+  "noFallthroughCasesInSwitch": true,
+  "noImplicitAny": true,
+  "lib": [
+   "ESNext"
+  ],
+  "outDir": "dist",
+  "sourceMap": true,
+  //  "isolatedModules": false
+  "declaration": true
+ },
+ "include": [
+  "src/**/*.ts",
+  "api/**/*.ts"
+ ],
+
+}
